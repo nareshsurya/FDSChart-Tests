@@ -1,0 +1,22 @@
+{
+  "suitename": "ConditionalColorZeroSizeCrash",
+  "description": "This test case verifies that when the specific chart is opened no crash has been observed",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/ConditionalColorZeroSizeCrash.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "75100",
+  "justifierIdLinked": true,
+  "features": [],
+  "Path": null
+}

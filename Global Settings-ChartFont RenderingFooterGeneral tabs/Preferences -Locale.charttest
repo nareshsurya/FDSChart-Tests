@@ -1,0 +1,46 @@
+{
+  "suitename": "Preferences ->Locale",
+  "description": "This is to check the Preferences -> Use Default Locale for this Machine",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Curves.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DisplayLCID",
+              "newValue": 1031,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4097",
+  "justifierIdLinked": true,
+  "features": [
+    "DisplayLCID"
+  ],
+  "Path": null
+}

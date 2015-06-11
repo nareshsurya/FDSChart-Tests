@@ -1,0 +1,119 @@
+{
+  "suitename": "Editing Trione Levels",
+  "description": "This testcase  explains how to edit the Fibonacci Levels",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/quadrantLevels.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "QL",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DrawStyle",
+              "newValue": 49,
+              "oldValue": 47
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "QL",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DrawingToolsLevels",
+              "newValue": "0.333333333333333;0.5;0.666666666666667;0.9",
+              "oldValue": null
+            },
+            {
+              "name": "FibonacciLevels",
+              "newValue": 15,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "QL",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DrawingToolsLevels",
+              "newValue": "0.5;0.666666666666667;0.9",
+              "oldValue": "0.333333333333333;0.5;0.666666666666667;0.9"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "QL",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "FibonacciLevels",
+              "newValue": 3,
+              "oldValue": 15
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "28248",
+  "justifierIdLinked": true,
+  "features": [
+    "DrawStyle",
+    "DrawingToolsLevels",
+    "FibonacciLevels"
+  ],
+  "Path": null
+}

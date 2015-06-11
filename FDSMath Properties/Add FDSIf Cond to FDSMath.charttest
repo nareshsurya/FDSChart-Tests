@@ -1,0 +1,108 @@
+{
+  "suitename": "Add FDSIf Cond to FDSMath",
+  "description": "Heading1AltText, Heading1CenterText",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1AltText",
+              "newValue": "<FDSIf COND=\"TEST\" TEST=\"123\">",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1AltText",
+              "newValue": "<FDSIf COND =\"BOO\" TEST=\"PASS\" FAIL=\"TRUE\">",
+              "oldValue": "<FDSIf COND=\"TEST\" TEST=\"123\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1CenterText",
+              "newValue": "<FDSIf cond=\"<FDSMath op=\"GT\" L=\"<FDSProperty name=\"FDSFirstY\" object=\"Series\">\" R=\"<FDSProperty name=\"FDSLastY\" object=\"Series\">\">\" TRUE=\"Less than or equal\" FALSE=\"Greater than\">",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1AltText",
+              "newValue": "<FDSIf COND=\"<FDSMath OP=\"LT\" L=\"<FDSProperty name=\"FDSFirstY\" object=\"Series\">\" R=\"5\">\" TRUE=\"Value less than 5!\" FALSE=\"Value greater than or equal to 5!\" @NA=\"SOMETHING WRONG!\">",
+              "oldValue": "<FDSIf COND =\"BOO\" TEST=\"PASS\" FAIL=\"TRUE\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "27155",
+  "Path": null
+}

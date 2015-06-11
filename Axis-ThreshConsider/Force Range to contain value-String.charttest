@@ -1,0 +1,69 @@
+{
+  "suitename": "Force Range to contain value-String",
+  "description": "ThreshConsider, ThreshConsiderValue",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/Universe.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_Plot1_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsider",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": 29.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_Plot1_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": -2.0,
+              "oldValue": 29.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "94990",
+  "Path": null
+}

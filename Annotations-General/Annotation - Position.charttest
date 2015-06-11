@@ -1,0 +1,292 @@
+{
+  "suitename": "Annotation - Position",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.5.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordY",
+              "newValue": 1.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueUsePlotCoordY",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 0.0,
+              "oldValue": 80.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordY",
+              "newValue": 0.5,
+              "oldValue": 1.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordY",
+              "newValue": 0.0,
+              "oldValue": 0.5
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordY",
+              "newValue": 0.25,
+              "oldValue": 0.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordX",
+              "newValue": 0.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueUsePlotCoordX",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueXOffset",
+              "newValue": 0.0,
+              "oldValue": 80.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordX",
+              "newValue": 1.0,
+              "oldValue": 0.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordX",
+              "newValue": 0.5,
+              "oldValue": 1.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordX",
+              "newValue": 0.75,
+              "oldValue": 0.5
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValuePlotCoordX",
+              "newValue": 0.95,
+              "oldValue": 0.75
+            },
+            {
+              "name": "SeriesValuePlotCoordY",
+              "newValue": 0.35,
+              "oldValue": 0.25
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueXOffset",
+              "newValue": 1030.0,
+              "oldValue": 0.0
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": -250.0,
+              "oldValue": 0.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueBoundMode",
+              "newValue": 1,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4145",
+  "Path": null
+}

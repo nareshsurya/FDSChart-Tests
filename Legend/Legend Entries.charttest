@@ -1,0 +1,150 @@
+{
+  "suitename": "Legend Entries",
+  "description": "Label, LegendFontCharSet, LegendFontColor, LegendFontFamily, LegendFontHeight, SeriesLabelAppendAxis",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.8.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PriceDA",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "<FDSDataY> (Left Axis)",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Main Plot DA",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendFontCharSet",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "LegendFontColor",
+              "newValue": 16750899,
+              "oldValue": null
+            },
+            {
+              "name": "LegendFontFamily",
+              "newValue": "Batang",
+              "oldValue": null
+            },
+            {
+              "name": "LegendFontHeight",
+              "newValue": 18,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Price Y2DA",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "<FDSMaxY> (Right Axis)",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesLabelAppendAxis",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "PriceDA",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "<FDSMaxY> (Left Axis)",
+              "oldValue": "<FDSDataY> (Left Axis)"
+            },
+            {
+              "name": "SeriesLabelAppendAxis",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price Y2DA",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "<FDSMoose>",
+              "oldValue": "<FDSMaxY> (Right Axis)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "PriceDA",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "<FDSMoose>",
+              "oldValue": "<FDSMaxY> (Left Axis)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4029",
+  "Path": null
+}

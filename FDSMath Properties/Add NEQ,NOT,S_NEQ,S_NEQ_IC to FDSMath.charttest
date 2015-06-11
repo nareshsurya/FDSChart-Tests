@@ -1,0 +1,250 @@
+{
+  "suitename": "Add NEQ,NOT,S_NEQ,S_NEQ_IC to FDSMath",
+  "description": "SeriesQuickLabel, SeriesQuickLabelText, Heading2Text, CrossHairsDrawonPlot, CrossHairsEnabled",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelText",
+              "newValue": "<FDSMath OP=\"NEQ\" L=\"10\" R=\"10\">",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelText",
+              "newValue": "<FDSMath OP=\"NEQ\" L=\"2\" R=\"10\">",
+              "oldValue": "<FDSMath OP=\"NEQ\" L=\"10\" R=\"10\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelText",
+              "newValue": "<FDSMath OP=\"NOT\" X=\"TRUE\">",
+              "oldValue": "<FDSMath OP=\"NEQ\" L=\"2\" R=\"10\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2Text",
+              "newValue": "<FDSVar name=\"someName\" value=\"Factset\"><someName>",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2Text",
+              "newValue": "<FDSMath OP=\"S_NEQ\" L=\"String\" R=\"Word\">",
+              "oldValue": "<FDSVar name=\"someName\" value=\"Factset\"><someName>"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2Text",
+              "newValue": "<FDSMath OP=\"S_NEQ\" L=\"Word\" R=\"Word\">",
+              "oldValue": "<FDSMath OP=\"S_NEQ\" L=\"String\" R=\"Word\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2Text",
+              "newValue": "<FDSMath OP=\"S_NEQ_IC\"L=\"WORD\" R=\"Word\">",
+              "oldValue": "<FDSMath OP=\"S_NEQ\" L=\"Word\" R=\"Word\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2Text",
+              "newValue": "<@foo = 10><foo> <@foo = 20><foo>",
+              "oldValue": "<FDSMath OP=\"S_NEQ_IC\"L=\"WORD\" R=\"Word\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "CrosshairsDrawOnPlot",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "CrosshairsEnabled",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelText",
+              "newValue": "<@value = <FDSIf COND=\"<FDSMath OP=\"EQ\" L=\"<FDSCrosshairIndex>\" R=\"-1\">\" TRUE=\"<FDSLastY>\" FALSE=\"<FDSProperty name=\"FDSDataY\" index=\"<FDSCrosshairIndex>\">\">><@pctChange = <FDSMath OP=\"DIV\" L=\"<FDSMath OP=\"MUL\" L=\"100\" R=\"<FDSMath OP=\"SUB\" L=\"<value>\" R=\"<FDSFirstY>\">\">\" R=\"<FDSFirstY>\">><@formattedChange = <FDSProperty type=\"FLOAT\" format=\"#1.2F\" value=\"<FDSMath OP=\"ABS\" X=\"<pctChange>\">\">><FDSIf COND=\"<FDSMath OP=\"LT\" L=\"<pctChange>\" R=\"0\">\" TRUE=\"%<formattedChange>\" FALSE=\"<formattedChange>%\">",
+              "oldValue": "<FDSMath OP=\"NOT\" X=\"TRUE\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "75999",
+  "Path": null
+}

@@ -1,0 +1,322 @@
+{
+  "suitename": "Legend colors/series colors",
+  "description": "LegendOrderIndex, LegendOrderCustom, AllowAnnotlnLegend, AnnotationAllowAnnotlnLegend, AnnotationlnLegend, InLegend",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Legend_Series-Colors.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "AMEX Airline",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX Biotechnology Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX China Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 7,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX Composite Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 6,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX Defense Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 3,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Biotech BOXES Indicative Value Index (AMEX)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Deutsche Bank Energy Index (AMEX)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 4,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "IntradayPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderCustom",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "IntradaySeries",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 1,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "ReferenceLine",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 8,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "ReferenceLine",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "AllowAnnotInLegend",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationAllowAnnotInLegend",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationInLegend",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "InLegend",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "AMEX Airline",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 6,
+              "oldValue": 5
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX Biotechnology Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 3,
+              "oldValue": 2
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX China Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 8,
+              "oldValue": 7
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX Composite Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 7,
+              "oldValue": 6
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "AMEX Defense Index",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 4,
+              "oldValue": 3
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Biotech BOXES Indicative Value Index (AMEX)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 1,
+              "oldValue": 0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Deutsche Bank Energy Index (AMEX)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 5,
+              "oldValue": 4
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "IntradaySeries",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 2,
+              "oldValue": 1
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "ReferenceLine",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendOrderIndex",
+              "newValue": 0,
+              "oldValue": 8
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "15768",
+  "Path": null
+}

@@ -1,0 +1,157 @@
+{
+  "suitename": "AlternatingBackground",
+  "description": "IntradayScaleMajorUnitBGColor, IntradayScaleMajorUnitBGGradientColor, IntradayScaleMajorUnitBGGradientStyle, IntradayScaleMajorUnitBGStyle, IntradayScaleMajorUnitBGHatch",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/IntradayScaleBackground.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PlotPrice_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IntradayScaleMajorUnitBGColor",
+              "newValue": 10040319,
+              "oldValue": 4276545
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PlotPrice_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IntradayScaleMajorUnitBGGradientColor",
+              "newValue": 16777088,
+              "oldValue": 6908265
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PlotPrice_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IntradayScaleMajorUnitBGGradientStyle",
+              "newValue": 2,
+              "oldValue": 1
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PlotPrice_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IntradayScaleMajorUnitBGStyle",
+              "newValue": 1,
+              "oldValue": 0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PlotPrice_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IntradayScaleMajorUnitBGGradientStyle",
+              "newValue": 0,
+              "oldValue": 2
+            },
+            {
+              "name": "IntradayScaleMajorUnitBGStyle",
+              "newValue": 2,
+              "oldValue": 1
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PlotPrice_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IntradayScaleMajorUnitBGHatch",
+              "newValue": 4,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "75199",
+  "Path": null
+}

@@ -1,0 +1,582 @@
+{
+  "suitename": "Plot/ChartArea- Margins",
+  "description": "Test is  to verify the Margins on Plot and Chart Areas",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/2 Plots.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "BottomPlotMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "LeftPlotMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "RightPlotMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "TopPlotMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "BottomPlotMargin",
+              "newValue": 0.0,
+              "oldValue": 50.0
+            },
+            {
+              "name": "LeftPlotMargin",
+              "newValue": 0.0,
+              "oldValue": 50.0
+            },
+            {
+              "name": "RightPlotMargin",
+              "newValue": 0.0,
+              "oldValue": 50.0
+            },
+            {
+              "name": "TopPlotMargin",
+              "newValue": 0.0,
+              "oldValue": 50.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "BottomMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "LeftMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "RightMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "TopMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Annotate",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DrawStyle",
+              "newValue": 16,
+              "oldValue": null
+            },
+            {
+              "name": "IsAnnotation",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesFGColor",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesFGWidth",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrow",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowBGColor",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowFGWidth",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowPosition",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowSize",
+              "newValue": 8.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowStyle",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueFontHeight",
+              "newValue": 10,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueXOffset",
+              "newValue": 0.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 0.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "Annot",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesNumber",
+              "newValue": 1,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Data",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Format",
+              "newValue": "$#,.2F",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "FC_FDSPlot1_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "TicksStyle",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "FC_FDSPlot1_Y_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "TicksStyle",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "FC_FDSPlot_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "TicksStyle",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "FC_FDSPlot_Y_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "TicksStyle",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "CanvasFGColor",
+              "newValue": 255,
+              "oldValue": null
+            },
+            {
+              "name": "CanvasFGWidth",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "BottomMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "BottomPlotMargin",
+              "newValue": 0.0,
+              "oldValue": null
+            },
+            {
+              "name": "ChartFGStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "DrawStyle",
+              "newValue": 4,
+              "oldValue": null
+            },
+            {
+              "name": "EquateLRMargins",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "LeftMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "LeftPlotMargin",
+              "newValue": 0.0,
+              "oldValue": null
+            },
+            {
+              "name": "RightMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "RightPlotMargin",
+              "newValue": 0.0,
+              "oldValue": null
+            },
+            {
+              "name": "TopMargin",
+              "newValue": 50.0,
+              "oldValue": null
+            },
+            {
+              "name": "TopPlotMargin",
+              "newValue": 0.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "Char vs Double",
+              "oldValue": null
+            },
+            {
+              "name": "minYFactor",
+              "newValue": 0.5,
+              "oldValue": null
+            },
+            {
+              "name": "seriesId",
+              "newValue": 1,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "FDSPlot1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ChartFGStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "EquateLRMargins",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "LeftMargin",
+              "newValue": 30.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "Simple Floats",
+              "oldValue": null
+            },
+            {
+              "name": "maxYFactor",
+              "newValue": 0.5,
+              "oldValue": null
+            },
+            {
+              "name": "seriesId",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarker",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowBGColor",
+              "newValue": 255,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowRatio",
+              "newValue": 0.4,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrowSize",
+              "newValue": 10.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueFontFamily",
+              "newValue": "Times New Roman",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueFontItalic",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueFontPosition",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueFontVPosition",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueXOffset",
+              "newValue": 0.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 20.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "Strings",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesNumber",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Series1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "Floats",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesNumber",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Series2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Label",
+              "newValue": "Strings",
+              "oldValue": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4076",
+  "justifierIdLinked": true,
+  "features": [
+    "BottomPlotMargin",
+    "LeftPlotMargin",
+    "RightPlotMargin",
+    "TopPlotMargin",
+    "BottomMargin",
+    "LeftMargin",
+    "RightMargin",
+    "TopMargin",
+    "DrawStyle",
+    "IsAnnotation",
+    "SeriesFGColor",
+    "SeriesFGWidth",
+    "SeriesValue",
+    "SeriesValueArrow",
+    "SeriesValueArrowBGColor",
+    "SeriesValueArrowFGWidth",
+    "SeriesValueArrowPosition",
+    "SeriesValueArrowSize",
+    "SeriesValueArrowStyle",
+    "SeriesValueFontHeight",
+    "SeriesValueXOffset",
+    "SeriesValueYOffset",
+    "Label",
+    "SeriesNumber",
+    "Format",
+    "TicksStyle",
+    "CanvasFGColor",
+    "CanvasFGWidth",
+    "ChartFGStyle",
+    "EquateLRMargins",
+    "minYFactor",
+    "seriesId",
+    "maxYFactor",
+    "SeriesMarker",
+    "SeriesValueArrowRatio",
+    "SeriesValueFontFamily",
+    "SeriesValueFontItalic",
+    "SeriesValueFontPosition",
+    "SeriesValueFontVPosition"
+  ],
+  "Path": null
+}

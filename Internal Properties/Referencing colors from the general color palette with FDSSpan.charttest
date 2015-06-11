@@ -1,0 +1,74 @@
+{
+  "suitename": "Referencing colors from the general color palette with FDSSpan",
+  "description": "Heading2CenterText, SeriesOutlineColor1, SeriesOutlineColor7, SeriesOutlineColor9",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2CenterText",
+              "newValue": "<FDSSpan bgColor=\"SeriesColor2\" fontColor=\"SeriesOutlineColor14\">FDS:</FDSSpan><FDSSpan bgColor=\"SeriesOutlineColor9\" fontColor=\"SeriesColor3\">FactSet</FDSSpan><FDSSpan bgColor=\"SeriesOutlineColor1\" fontColor=\"SeriesColor9\">Research</FDSSpan><FDSSpan bgColor=\"SeriesOutlineColor7\" fontColor=\"SeriesColor2\">System</FDSSpan>",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesOutlineColor1",
+              "newValue": 10040319,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesOutlineColor7",
+              "newValue": 4227327,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesOutlineColor9",
+              "newValue": 16777088,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "78649",
+  "Path": null
+}

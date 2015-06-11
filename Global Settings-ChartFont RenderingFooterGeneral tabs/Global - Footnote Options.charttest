@@ -1,0 +1,437 @@
+{
+  "suitename": "Global - Footnote Options",
+  "description": "This is to check the Footer functionlity globally",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.7.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price Y2DA_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 77.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": [
+            {
+              "name": "AnnotationDrawStyle",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationMode",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationType",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "DrawStyle",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "IsAnnotation",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "IsFootnote",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "Label",
+              "newValue": "TEST ANNOTATION ONE(1)",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesColor",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueSublabelMask",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 40.0,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Price Y2DA_Annotation_0A2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Price Y2DA_Annotation_0A3",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesFootnoteText",
+              "newValue": "(<FDSAutoIncrement>) <FDSDataLabel>",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Price Y2DA_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": -70.0,
+              "oldValue": 77.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "PriceDA_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": -57.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": [
+            {
+              "name": "AnnotationDrawStyle",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationMode",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationType",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "DrawStyle",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "IsAnnotation",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "IsFootnote",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "Label",
+              "newValue": "TEST ANNOTATION(2)",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesColor",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueSublabelMask",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 40.0,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "PriceDA_Annotation_1A2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "PriceDA_Annotation_1A3",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesFootnoteText",
+              "newValue": "(<FDSAutoIncrement>) - <FDSDataY> - <FDSDataLabel>",
+              "oldValue": "(<FDSAutoIncrement>) <FDSDataLabel>"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Price Y2DA_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": -90.0,
+              "oldValue": -70.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "PriceDA_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": -63.0,
+              "oldValue": -57.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "FootnoteSortMode",
+              "newValue": 3,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "FootnoteSortMode",
+              "newValue": 4,
+              "oldValue": 3
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "FootnoteAutoIncMode",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9386",
+  "justifierIdLinked": true,
+  "features": [
+    "SeriesValueYOffset",
+    "AnnotationDrawStyle",
+    "AnnotationMode",
+    "AnnotationType",
+    "DrawStyle",
+    "InTips",
+    "IsAnnotation",
+    "IsFootnote",
+    "Label",
+    "SeriesColor",
+    "SeriesValue",
+    "SeriesValueArrow",
+    "SeriesValueAutoPosition",
+    "SeriesValueSublabelMask",
+    "Frequency",
+    "SeriesFootnoteText",
+    "FootnoteSortMode",
+    "FootnoteAutoIncMode"
+  ],
+  "Path": null
+}

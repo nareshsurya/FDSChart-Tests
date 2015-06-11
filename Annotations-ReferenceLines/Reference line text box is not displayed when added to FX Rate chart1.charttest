@@ -1,0 +1,22 @@
+{
+  "suitename": "Reference line text box is not displayed when added to FX Rate chart1",
+  "description": "This test was to make sure the vertical reference line located at the very first point in the chart  show it's annotated text box",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/RefLineTextBox.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9077",
+  "justifierIdLinked": true,
+  "features": [],
+  "Path": null
+}

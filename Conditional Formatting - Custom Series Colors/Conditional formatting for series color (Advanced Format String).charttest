@@ -1,0 +1,157 @@
+{
+  "suitename": "Conditional formatting for series color (Advanced Format String)",
+  "description": "Testing that the contents within the 'Conditional Series Colors' tab functions; Specifically the Advanced Format String text box.",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/PosNegColumnDataLabels.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Annual Sales Growth",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ColorIsIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "CycleColorIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesConditionalColorAdvanced",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesConditionalColorProperty",
+              "newValue": "[>0](13395507):(65535)",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Color(Annual Sales Growth)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "objectAction",
+      "args": "-5.25",
+      "name": "ReplacePoint",
+      "ret": null,
+      "obj": "Sales Growth",
+      "flags": 1
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Annual Sales Growth",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalColorAutoUpdate",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "objectAction",
+      "args": "0.99",
+      "name": "ReplacePoint",
+      "ret": null,
+      "obj": "Sales Growth",
+      "flags": 3
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Annual Sales Growth",
+          "SET_RESET_FLAGS": [
+            {
+              "name": "ColorIsIndex",
+              "newValue": null,
+              "oldValue": false
+            },
+            {
+              "name": "CycleColorIndex",
+              "newValue": null,
+              "oldValue": false
+            },
+            {
+              "name": "SeriesConditionalColorProperty",
+              "newValue": null,
+              "oldValue": "[>0](13395507):(65535)"
+            }
+          ],
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "5262",
+  "justifierIdLinked": true,
+  "features": [
+    "ColorIsIndex",
+    "CycleColorIndex",
+    "SeriesConditionalColorAdvanced",
+    "SeriesConditionalColorProperty",
+    "InTips",
+    "SeriesConditionalColorAutoUpdate"
+  ],
+  "Path": null
+}

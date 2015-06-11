@@ -1,0 +1,134 @@
+{
+  "suitename": "Force Range to conatin value- Integers",
+  "description": "ThreshConsider, ThreshConsiderFactor, ThreshConsiderValue, ",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/2 Plots.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot1_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsider",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "ThreshConsiderFactor",
+              "newValue": 0.5,
+              "oldValue": null
+            },
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": 800.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot1_X_AXIS",
+          "SET_RESET_FLAGS": [
+            {
+              "name": "ThreshConsiderFactor",
+              "newValue": null,
+              "oldValue": 0.5
+            }
+          ],
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": -100.0,
+              "oldValue": 800.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot1_Y_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsider",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": 100.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsider",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": 100.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "94988",
+  "Path": null
+}

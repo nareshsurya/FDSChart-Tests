@@ -1,0 +1,74 @@
+{
+  "suitename": "Intraday Labeling",
+  "description": "UseIntradayScale, LabelsLevelsMask, RemoveGapsFromMajorIntervals, IntradayLabeling",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../XML/atlas/Intraday02.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PlotPrice",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "UseIntradayScale",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PlotPrice_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IntradayLabeling",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "LabelsLevelsMask",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "RemoveGapsFromMajorIntervals",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "75140",
+  "Path": null
+}

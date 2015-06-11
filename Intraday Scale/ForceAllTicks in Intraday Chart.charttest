@@ -1,0 +1,20 @@
+{
+  "suitename": "ForceAllTicks in Intraday Chart",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/Intraday-ForceAllTicks.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "97317",
+  "Path": null
+}

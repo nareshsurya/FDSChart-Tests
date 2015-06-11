@@ -1,0 +1,314 @@
+{
+  "suitename": "Titles A",
+  "description": "HeadingBGBatch, HeadingFGPen, Heading1FontHeight, Heading1AltText, Heading1CenterText, Heading1FontColor, Heading1Text, Heading1BasePosition, Heading2AltText, Heading2CenterText, Heading2FontColor, Heading2Text, Heading3, Heading3AltText, Heading3BasePosition, Heading3CenterText, Heading3FontCharSet, Heading3FontColor, Heading3FontFamily, Heading3Text, Heading4, Heading4AltText, Heading4CenterText, Heading4BasePosition, Heading4FontColor, Heading4FontHeight, Heading4Text",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "HeadingBGColor",
+              "newValue": 3394815,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingBGCustomHatch1",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingBGCustomHatch2",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingBGGradientStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingBGHatch",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingBGStyle",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingFGColor",
+              "newValue": 3342540,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingFGStyle",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "HeadingFGWidth",
+              "newValue": 5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1FontHeight",
+              "newValue": 22,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1AltText",
+              "newValue": "Right Text",
+              "oldValue": null
+            },
+            {
+              "name": "Heading1CenterText",
+              "newValue": "Center Text",
+              "oldValue": null
+            },
+            {
+              "name": "Heading1FontColor",
+              "newValue": 16750899,
+              "oldValue": null
+            },
+            {
+              "name": "Heading1FontHeight",
+              "newValue": 26,
+              "oldValue": 22
+            },
+            {
+              "name": "Heading1Text",
+              "newValue": "Time <FDSSpan fontsize=\"36\">Data",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1BasePosition",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2AltText",
+              "newValue": "Subtitle1 Right",
+              "oldValue": null
+            },
+            {
+              "name": "Heading2CenterText",
+              "newValue": "Subtitle1 Center",
+              "oldValue": null
+            },
+            {
+              "name": "Heading2FontColor",
+              "newValue": 13395507,
+              "oldValue": null
+            },
+            {
+              "name": "Heading2Text",
+              "newValue": "Subtitle1 Left",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading3",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "Heading3AltText",
+              "newValue": "Subtitle2 Right",
+              "oldValue": null
+            },
+            {
+              "name": "Heading3BasePosition",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "Heading3CenterText",
+              "newValue": "Subtitle2 Middle",
+              "oldValue": null
+            },
+            {
+              "name": "Heading3FontCharSet",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "Heading3FontColor",
+              "newValue": 6684774,
+              "oldValue": null
+            },
+            {
+              "name": "Heading3FontFamily",
+              "newValue": "BatangChe",
+              "oldValue": null
+            },
+            {
+              "name": "Heading3Text",
+              "newValue": "Subtitle2 Left",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading4",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "Heading4AltText",
+              "newValue": "Subtitle3 Right",
+              "oldValue": null
+            },
+            {
+              "name": "Heading4BasePosition",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "Heading4CenterText",
+              "newValue": "Subtitle3 Center",
+              "oldValue": null
+            },
+            {
+              "name": "Heading4FontColor",
+              "newValue": 26316,
+              "oldValue": null
+            },
+            {
+              "name": "Heading4FontHeight",
+              "newValue": 36,
+              "oldValue": null
+            },
+            {
+              "name": "Heading4Text",
+              "newValue": "Subtitle3 <FDSSpan fontSize=\"48\">Left",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4083",
+  "Path": null
+}

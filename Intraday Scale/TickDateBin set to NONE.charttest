@@ -1,0 +1,20 @@
+{
+  "suitename": "TickDateBin set to NONE",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/TickDateBin.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "92870",
+  "Path": null
+}

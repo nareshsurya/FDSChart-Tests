@@ -1,0 +1,52 @@
+{
+  "suitename": "RelativeArea DrawStyle",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/RelativeAreaDrag Datapoints.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/RelativeAreaFrequencyNoOverlap.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/RelativeAreaFill1.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/RelativeAreaFill2.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/RelativeArea-SeriesRegressionData.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "93458",
+  "Path": null
+}

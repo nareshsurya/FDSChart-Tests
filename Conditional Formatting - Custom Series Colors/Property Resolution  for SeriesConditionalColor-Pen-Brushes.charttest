@@ -1,0 +1,22 @@
+{
+  "suitename": "Property Resolution  for SeriesConditionalColor/Pen/Brushes",
+  "description": "This test is to verify Property resolution is not broken for SeriesCondititionalColors and SeriesConditionalPen/Brush  ",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/ConditionalColorByIndex.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "83465",
+  "justifierIdLinked": true,
+  "features": [],
+  "Path": null
+}

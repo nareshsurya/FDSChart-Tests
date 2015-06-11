@@ -1,0 +1,223 @@
+{
+  "suitename": "Plot/Chart Area-Colors",
+  "description": "Test verifies different  features  from Colors tab  on Plot and Chart Areas",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/2 Plots.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "PlotBGColor",
+              "newValue": 6684774,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGCustomHatch1",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGCustomHatch2",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGGradientStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGHatch",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGStyle",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "PlotFGColor",
+              "newValue": 13395507,
+              "oldValue": null
+            },
+            {
+              "name": "PlotFGStyle",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "PlotFGWidth",
+              "newValue": 5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "PlotBGShadow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGShadowColor",
+              "newValue": 39168,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGShadowX",
+              "newValue": 5,
+              "oldValue": null
+            },
+            {
+              "name": "PlotBGShadowY",
+              "newValue": -5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ChartBGGradientAngle",
+              "newValue": 180,
+              "oldValue": null
+            },
+            {
+              "name": "ChartBGGradientStyle",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "ChartBGStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "ChartFGColor",
+              "newValue": 3394815,
+              "oldValue": null
+            },
+            {
+              "name": "ChartFGWidth",
+              "newValue": 5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ChartBGShadow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "ChartBGShadowColor",
+              "newValue": 10040319,
+              "oldValue": null
+            },
+            {
+              "name": "ChartBGShadowX",
+              "newValue": 5,
+              "oldValue": null
+            },
+            {
+              "name": "ChartBGShadowY",
+              "newValue": -5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4078",
+  "justifierIdLinked": true,
+  "features": [
+    "PlotBGColor",
+    "PlotBGCustomHatch1",
+    "PlotBGCustomHatch2",
+    "PlotBGGradientStyle",
+    "PlotBGHatch",
+    "PlotBGStyle",
+    "PlotFGColor",
+    "PlotFGStyle",
+    "PlotFGWidth",
+    "PlotBGShadow",
+    "PlotBGShadowColor",
+    "PlotBGShadowX",
+    "PlotBGShadowY",
+    "ChartBGGradientAngle",
+    "ChartBGGradientStyle",
+    "ChartBGStyle",
+    "ChartFGColor",
+    "ChartFGWidth",
+    "ChartBGShadow",
+    "ChartBGShadowColor",
+    "ChartBGShadowX",
+    "ChartBGShadowY"
+  ],
+  "Path": null
+}

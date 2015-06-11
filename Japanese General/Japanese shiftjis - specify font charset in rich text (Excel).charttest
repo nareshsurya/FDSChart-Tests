@@ -1,0 +1,46 @@
+{
+  "suitename": "Japanese shiftjis - specify font charset in rich text (Excel)",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Curves.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1CenterText",
+              "newValue": "english text<FDSSpan fontcharset=\"shiftjis\" fontColor=\"red\">ノへ行",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "15624",
+  "justifierIdLinked": false,
+  "features": [
+    "Heading1CenterText"
+  ],
+  "Path": null
+}

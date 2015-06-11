@@ -1,0 +1,22 @@
+{
+  "suitename": "Color_array not picking up colors",
+  "description": "This test is to make sure color array picks up the correct colors  in a chart",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/Color_Array.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "75094",
+  "justifierIdLinked": true,
+  "features": [],
+  "Path": null
+}

@@ -1,0 +1,139 @@
+{
+  "suitename": "Series Marker",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.11.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PricePV",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarker",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PricePV",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarkerInLegend",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PricePV",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarkerSize",
+              "newValue": 30.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesMarkerStyle",
+              "newValue": 3,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PricePV",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarkerColor",
+              "newValue": 10040319,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesMarkerFGStyle",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesMarkerFGWidth",
+              "newValue": 5,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesMarkerOutlineColor",
+              "newValue": 3394560,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4082",
+  "justifierIdLinked": true,
+  "features": [
+    "SeriesMarker",
+    "SeriesMarkerInLegend",
+    "SeriesMarkerSize",
+    "SeriesMarkerStyle",
+    "SeriesMarkerColor",
+    "SeriesMarkerFGStyle",
+    "SeriesMarkerFGWidth",
+    "SeriesMarkerOutlineColor"
+  ],
+  "Path": null
+}

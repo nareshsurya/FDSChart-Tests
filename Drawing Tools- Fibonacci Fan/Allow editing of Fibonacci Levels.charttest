@@ -1,0 +1,96 @@
+{
+  "suitename": "Allow editing of Fibonacci Levels",
+  "description": "If the DrawingToolsLevels attribute is empty, the formatter will display the default levels for the draw style. If this list is edited (a level is edited, added or removed), the formatter will save the list in the DrawingToolsLevels attribute automatically. If the DrawingToolsLevels attribute is not empty, the formatter displays the levels stored in the attribute, along with their visibility obtained from the FibonacciLevels attribute.\r\n Available from 2012.1A \r\n \r\n\r\nThis new dialog was extended to work with Fibonacci Retracements, Fibonacci Arc, Fibonacci Fan, Gann Fan, Quadrant Lines and Tirone Levels.\r\n\r\n",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/fibonacciFan.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Trendline",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DrawingToolsLevels",
+              "newValue": "0.236;0.382;0.5;0.618;0.764;1;1.618;2.618;4.236;6.854",
+              "oldValue": null
+            },
+            {
+              "name": "FibonacciLevels",
+              "newValue": 1023,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Trendline",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DrawingToolsLevels",
+              "newValue": "0.236;0.382;0.5;0.618;1.618;4.236;6.854",
+              "oldValue": "0.236;0.382;0.5;0.618;0.764;1;1.618;2.618;4.236;6.854"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Trendline",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "FibonacciLevels",
+              "newValue": 63,
+              "oldValue": 1023
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "28741",
+  "justifierIdLinked": true,
+  "features": [
+    "DrawingToolsLevels",
+    "FibonacciLevels"
+  ],
+  "Path": null
+}

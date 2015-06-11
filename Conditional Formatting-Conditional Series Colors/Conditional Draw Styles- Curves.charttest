@@ -1,0 +1,332 @@
+{
+  "suitename": "Conditional Draw Styles- Curves",
+  "description": "UseConditionalBrushesAndPens, SeriesMarkerBGBrush, SeriesMarkerFGPen, ",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Curves.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "UseConditionalBrushesAndPens",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "UseConditionalBrushesAndPens",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarkerSize",
+              "newValue": 20.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ColorIsIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "CycleColorIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGWidth=[>6](4):(2)",
+              "oldValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGWidth=[>6](4):(2)",
+              "oldValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGWidth=[>6](4):(2)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGStyle=[>6](2):(1)||SeriesMarkerFGWidth=[>6](4):(2)",
+              "oldValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGWidth=[>6](4):(2)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesMarkerBGAlpha=[>6.1](150):(220)||SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGStyle=[>6](2):(1)||SeriesMarkerFGWidth=[>6](4):(2)",
+              "oldValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGStyle=[>6](2):(1)||SeriesMarkerFGWidth=[>6](4):(2)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGStyle=[>6](2):(1)||SeriesMarkerFGWidth=[>6](4):(2)",
+              "oldValue": "SeriesMarkerBGAlpha=[>6.1](150):(220)||SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGStyle=[>6](2):(1)||SeriesMarkerFGWidth=[>6](4):(2)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerBGStyle=[>6](1):(0)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGStyle=[>6](2):(1)||SeriesMarkerFGWidth=[>6](4):(2)",
+              "oldValue": "SeriesMarkerBGColor=[>6](3394560):(3394815)||SeriesMarkerFGColor=[>6](3342540):(10053273)||SeriesMarkerFGStyle=[>6](2):(1)||SeriesMarkerFGWidth=[>6](4):(2)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "112329",
+  "Path": null
+}

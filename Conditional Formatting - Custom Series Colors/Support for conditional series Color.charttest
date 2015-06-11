@@ -1,0 +1,76 @@
+{
+  "suitename": "Support for conditional series Color",
+  "description": "This  functionality verifies  how the conditional colors  really work with multiple series on the same chart at the same time .\r\n",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/ColorDatasetNamingCollision1.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalColorProperty",
+              "newValue": "[>6.2](13395507):(3342540)",
+              "oldValue": "[>0](13395507):(3342540)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/ColorDatasetNamingCollision2.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Set0Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalColorProperty",
+              "newValue": "<FDSIf COND=\"<FDSMath OP=\"S_EQ\" L=\"<FDSProperty name=\"FDSDataLabel\" object=\"Set1Series\">\" R=\"Total\">\" TRUE=\"8421504\" FALSE=\"255\">",
+              "oldValue": "<FDSIf COND=\"<FDSMath OP=\"S_EQ\" L=\"<FDSProperty name=\"FDSDataLabel\" object=\"Set1Series\">\" R=\"Total\">\" TRUE=\"8421504\" FALSE=\"9807462\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": " 27452",
+  "justifierIdLinked": true,
+  "features": [
+    "SeriesConditionalColorProperty"
+  ],
+  "Path": null
+}

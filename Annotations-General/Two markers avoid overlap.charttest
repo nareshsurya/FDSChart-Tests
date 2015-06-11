@@ -1,0 +1,94 @@
+{
+  "suitename": "Two markers avoid overlap",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/TwoMarkers.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarkerAutoPositionFactor",
+              "newValue": 0.35,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesMarkerAutoPositionFactor",
+              "newValue": 0.95,
+              "oldValue": 0.35
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 72.0,
+              "oldValue": 67.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 91.0,
+              "oldValue": 86.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9074",
+  "Path": null
+}

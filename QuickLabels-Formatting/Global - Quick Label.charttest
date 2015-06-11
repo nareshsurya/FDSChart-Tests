@@ -1,0 +1,101 @@
+{
+  "suitename": "Global - Quick Label",
+  "description": "SeriesQuickLabel, SeriesQuickLabelLeftPositionModifier, SeriesQuickLabelRightPositionModifier, SeriesQuickLabelPosition, SeriesQuickLabelText",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.4.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": true,
+              "oldValue": false
+            },
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelPosition",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelText",
+              "newValue": "<FDSMath OP=\"SUB\" L=\"<FDSLastY>\" R=\"<FDSFirstY>\">",
+              "oldValue": "<FDSLabel> <IDENTIFIER> - testing123"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": false,
+              "oldValue": true
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4025",
+  "Path": null
+}

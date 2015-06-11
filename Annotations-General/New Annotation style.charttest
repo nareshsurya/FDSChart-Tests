@@ -1,0 +1,153 @@
+{
+  "suitename": "New Annotation style",
+  "description": "SeriesQuickLabelArrowMultiplier",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/AdjustAxes.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "SERIES002",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelPosition",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelTextBox",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelTextBoxDisplayStyle",
+              "newValue": 6,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_PLOT000_Y2_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "AxisPosition",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "LabelPosition",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "TicksOffset",
+              "newValue": 10.0,
+              "oldValue": null
+            },
+            {
+              "name": "TicksPosition",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "TitlePosition",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "SERIES002",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelArrowMultiplier",
+              "newValue": 0.5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "SERIES002",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelArrowMultiplier",
+              "newValue": 2.0,
+              "oldValue": 0.5
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "32199",
+  "Path": null
+}

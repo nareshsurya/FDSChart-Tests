@@ -1,0 +1,20 @@
+{
+  "suitename": "Regression lines don't behave well with zoom 2",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/RegressionPrecisionTest.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "20317",
+  "Path": null
+}

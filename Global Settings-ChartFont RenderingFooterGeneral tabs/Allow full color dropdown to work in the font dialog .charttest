@@ -1,0 +1,105 @@
+{
+  "suitename": "Allow full color dropdown to work in the font dialog ",
+  "description": "This test verifies Allow full color dropdown to work in the font dialog ",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Curves.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1FontCharSet",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "Heading1FontColor",
+              "newValue": 10053273,
+              "oldValue": null
+            },
+            {
+              "name": "Heading1FontFamily",
+              "newValue": "Batang",
+              "oldValue": null
+            },
+            {
+              "name": "Heading1FontHeight",
+              "newValue": 24,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "BaseFontCharSet",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "BaseFontColor",
+              "newValue": 3394815,
+              "oldValue": null
+            },
+            {
+              "name": "BaseFontFamily",
+              "newValue": "Century",
+              "oldValue": null
+            },
+            {
+              "name": "BaseFontHeight",
+              "newValue": 32,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9410",
+  "justifierIdLinked": true,
+  "features": [
+    "Heading1FontCharSet",
+    "Heading1FontColor",
+    "Heading1FontFamily",
+    "Heading1FontHeight",
+    "BaseFontCharSet",
+    "BaseFontColor",
+    "BaseFontFamily",
+    "BaseFontHeight"
+  ],
+  "Path": null
+}

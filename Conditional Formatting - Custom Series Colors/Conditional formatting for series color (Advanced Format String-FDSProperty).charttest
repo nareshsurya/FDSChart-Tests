@@ -1,0 +1,72 @@
+{
+  "suitename": "Conditional formatting for series color (Advanced Format String-FDSProperty)",
+  "description": "Added this testcase as per the review comments from the engineer .",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/ConditionalFormat-FDSProperty.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(SERIES000)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "SERIES000",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ColorIsIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "CycleColorIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesConditionalColorProperty",
+              "newValue": "<FDSIf COND=\"<FDSMath op=\"LT\" L=\"<FDSProperty name=\"FDSDataY\" object=\"SERIES002\">\" R=\"<FDSProperty name=\"FDSDataY\" object=\"SERIES000\">\">\" TRUE=\"37705\" FALSE=\"255\">",
+              "oldValue": ""
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "60740",
+  "justifierIdLinked": true,
+  "features": [
+    "InTips",
+    "ColorIsIndex",
+    "CycleColorIndex",
+    "SeriesConditionalColorProperty"
+  ],
+  "Path": null
+}

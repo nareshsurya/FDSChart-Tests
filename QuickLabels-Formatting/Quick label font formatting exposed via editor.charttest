@@ -1,0 +1,143 @@
+{
+  "suitename": "Quick label font formatting exposed via editor",
+  "description": "SeriesQuickLabel, SeriesQuickLabelFontCharSet, SeriesQuickLabelFontFamily, SeriesQuickLabelFontHeight, SeriesQuickLabelColorFollowsSeriesColor, SeriesQuickLabelFontColor, SeriesQuickLabelFontStrikeOut, SeriesQuickLabelFontUnderLine, SeriesQuickLabelFontWeight",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Curves.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelFontCharSet",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelFontFamily",
+              "newValue": "Arial Black",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelFontHeight",
+              "newValue": 16,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelColorFollowsSeriesColor",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelFontColor",
+              "newValue": 39168,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelFontFamily",
+              "newValue": "Bradley Hand ITC",
+              "oldValue": "Arial Black"
+            },
+            {
+              "name": "SeriesQuickLabelFontHeight",
+              "newValue": 18,
+              "oldValue": 16
+            },
+            {
+              "name": "SeriesQuickLabelFontStrikeOut",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelFontUnderline",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelFontWeight",
+              "newValue": 700,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9267",
+  "Path": null
+}

@@ -1,0 +1,125 @@
+{
+  "suitename": "Annotation Smart Position-Avoid OverLap",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/AnnotationSmartPosition.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "EPS Growth, Year/Year(Plot1)_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": null,
+              "oldValue": true
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueXOffset",
+              "newValue": -20.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 48.0,
+              "oldValue": 49.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Earnings Per Share(Plot1)_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 179.0,
+              "oldValue": 160.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Earnings Per Share(Plot1)_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": null,
+              "oldValue": true
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": null,
+              "oldValue": 40.0
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueXOffset",
+              "newValue": -20.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 159.0,
+              "oldValue": 179.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "87557",
+  "Path": null
+}

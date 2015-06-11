@@ -1,0 +1,126 @@
+{
+  "suitename": "Header",
+  "description": "Header, HeaderAltText, HeaderCenterText, HeaderFontCharSet, HeaderFontColor, HeaderFontFamily, HeaderFontHeight, HeaderText, HeaderFontStrikeout, HeaderFontUnderline, HeaderBasePosition",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/SpaceToRight.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PlotPrice",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Header",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "HeaderAltText",
+              "newValue": "here",
+              "oldValue": null
+            },
+            {
+              "name": "HeaderCenterText",
+              "newValue": "text ",
+              "oldValue": null
+            },
+            {
+              "name": "HeaderFontCharSet",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "HeaderFontColor",
+              "newValue": 3394815,
+              "oldValue": null
+            },
+            {
+              "name": "HeaderFontFamily",
+              "newValue": "Arial Narrow",
+              "oldValue": null
+            },
+            {
+              "name": "HeaderFontHeight",
+              "newValue": 18,
+              "oldValue": null
+            },
+            {
+              "name": "HeaderText",
+              "newValue": "some",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PlotPrice",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "HeaderFontStrikeOut",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "HeaderFontUnderline",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PlotPrice",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "HeaderBasePosition",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4026",
+  "Path": null
+}

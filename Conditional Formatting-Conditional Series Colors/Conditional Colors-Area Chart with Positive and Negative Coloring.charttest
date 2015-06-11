@@ -1,0 +1,568 @@
+{
+  "suitename": "Conditional Colors-Area Chart with Positive and Negative Coloring",
+  "description": "SeriesAlternateFGPen, SeriesAlternateBGBrush, SeriesBGBrush, SeriesFGPen, UseConditionalBrushesandPens, ",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/AreaPositiveNegative.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FG_RVN_CHG_Q1ME(Plot1)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "EnableAreaTopBottomConditionalColor",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FG_RVN_CHG_Q1ME(Plot1)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesEnableAlternateBGBrush",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesEnableAlternateFGPen",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FG_RVN_CHG_Q1ME(Plot1)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesBGGradientStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesBGStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesColor",
+              "newValue": 10066329,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesFGWidth",
+              "newValue": 5,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesOutlineColor",
+              "newValue": 39168,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FG_RVN_CHG_Q1ME(Plot1)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesAlternateBGColor",
+              "newValue": 3394815,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesAlternateBGGradientStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesAlternateBGStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesAlternateOutlineColor",
+              "newValue": 10040319,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesAlternateOutlineStyle",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesAlternateOutlineWidth",
+              "newValue": 5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/AreaTopBottom.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "EnableAreaTopBottomConditionalColor",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": null,
+              "oldValue": "SeriesBGColor=[>2.5](13395507):(3342540)"
+            }
+          ],
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": ""
+            },
+            {
+              "name": "UseConditionalBrushesAndPens",
+              "newValue": true,
+              "oldValue": false
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": "SeriesBGColor=[>3.5](31488):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGStyle=[>2](0):(2)||SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesBGColor=[>3.5](31488):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGStyle=[>2](0):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGStyle=[>2](0):(2)||SeriesBGColor=[>3.5](31488):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGCustomHatch1=[>2](1):(2)||SeriesAlternateBGStyle=[>2](0):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGStyle=[>2](0):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGCustomHatch1=[>2](1):(2)||SeriesAlternateBGStyle=[>2](2):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGCustomHatch1=[>2](1):(2)||SeriesAlternateBGStyle=[>2](0):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGCustomHatch1=[>2](1):(2)||SeriesAlternateBGCustomHatch1Spacing=[>2](20):(3)||SeriesAlternateBGStyle=[>2](2):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGCustomHatch1=[>2](1):(2)||SeriesAlternateBGStyle=[>2](2):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGCustomHatch1=[>2](1):(2)||SeriesAlternateBGCustomHatch1Spacing=[>2](20):(3)||SeriesAlternateBGGradientColor=[>2](10053273):(10066329)||SeriesAlternateBGGradientStyle=[>2](1):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)",
+              "oldValue": "SeriesAlternateBGColor=[>2](26316):(10040319)||SeriesAlternateBGCustomHatch1=[>2](1):(2)||SeriesAlternateBGCustomHatch1Spacing=[>2](20):(3)||SeriesAlternateBGStyle=[>2](2):(2)||SeriesAlternateOutlineColor=[>2](3342540):(3394560)||SeriesBGColor=[>3.5](31488):(3394815)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/useconditionalpensandbrushestrue.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "UseConditionalBrushesAndPens",
+              "newValue": false,
+              "oldValue": true
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/areawithcolordim.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "74180",
+  "Path": null
+}

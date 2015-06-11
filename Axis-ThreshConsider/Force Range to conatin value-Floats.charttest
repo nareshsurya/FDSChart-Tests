@@ -1,0 +1,80 @@
+{
+  "suitename": "Force Range to conatin value-Floats",
+  "description": "ThreshConsider, ThreshConsiderValue",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Floats.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot_X_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsider",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": -0.8,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot_Y_AXIS",
+          "SET_RESET_FLAGS": [
+            {
+              "name": "ThreshMax",
+              "newValue": null,
+              "oldValue": 0.5
+            }
+          ],
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ThreshConsider",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "ThreshConsiderValue",
+              "newValue": 5.8,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "94989",
+  "Path": null
+}

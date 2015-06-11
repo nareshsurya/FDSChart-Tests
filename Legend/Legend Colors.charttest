@@ -1,0 +1,62 @@
+{
+  "suitename": "Legend Colors",
+  "description": "LegendBGBatch, LegendFGPen",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Curves.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendBGColor",
+              "newValue": 3394815,
+              "oldValue": null
+            },
+            {
+              "name": "LegendBGGradientStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "LegendBGStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "LegendFGColor",
+              "newValue": 10053273,
+              "oldValue": null
+            },
+            {
+              "name": "LegendFGStyle",
+              "newValue": 0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4027",
+  "Path": null
+}

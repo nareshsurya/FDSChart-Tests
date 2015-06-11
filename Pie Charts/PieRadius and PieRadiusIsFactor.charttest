@@ -1,0 +1,87 @@
+{
+  "suitename": "PieRadius and PieRadiusIsFactor",
+  "description": "This test case  verifies PieRadius and PieRadiusIsFactor attributes ",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/colors.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "PieCenterXOffset",
+              "newValue": -60.0,
+              "oldValue": null
+            },
+            {
+              "name": "PieCenterYOffset",
+              "newValue": -30.0,
+              "oldValue": null
+            },
+            {
+              "name": "PieRadius",
+              "newValue": 0.5,
+              "oldValue": null
+            },
+            {
+              "name": "PieRadiusIsFactor",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "PieRadiusIsFactor",
+              "newValue": false,
+              "oldValue": true
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9317",
+  "justifierIdLinked": true,
+  "features": [
+    "PieCenterIsFactor",
+    "PieCenterXOffset",
+    "PieCenterYOffset",
+    "PieRadius",
+    "PieRadiusIsFactor"
+  ],
+  "Path": null
+}

@@ -1,0 +1,78 @@
+{
+  "suitename": "Generate the color dataset with a series that has one or more NA values",
+  "description": "This test verifies that trying to generate the color dataset with a series that has one or more NA values no longer fail",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/ChartWithOneNA.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "ColorIsIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "CycleColorIndex",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesFGColor=[>2](3342540):(3394560)",
+              "oldValue": null
+            },
+            {
+              "name": "UseConditionalBrushesAndPens",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "75093",
+  "justifierIdLinked": true,
+  "features": [
+    "InTips",
+    "ColorIsIndex",
+    "CycleColorIndex",
+    "SeriesConditionalPenAndBrushProperty",
+    "UseConditionalBrushesAndPens"
+  ],
+  "Path": null
+}

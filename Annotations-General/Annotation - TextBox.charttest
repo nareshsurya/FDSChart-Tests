@@ -1,0 +1,251 @@
+{
+  "suitename": "Annotation - TextBox",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.5.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "AnnotationSeriesValue",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "AnnotationSeriesValue",
+              "newValue": true,
+              "oldValue": false
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": false
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueBGColor",
+              "newValue": 3342540,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueFGColor",
+              "newValue": 16750899,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueHeightHint",
+              "newValue": 40.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueSizingMode",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueWidthHint",
+              "newValue": 100.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueHeightHint",
+              "newValue": 200.0,
+              "oldValue": 40.0
+            },
+            {
+              "name": "SeriesValueWidthHint",
+              "newValue": 0.0,
+              "oldValue": 100.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueDisplayMargins",
+              "newValue": 40.0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueSizingMode",
+              "newValue": 0,
+              "oldValue": 1
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueDisplayMargins",
+              "newValue": 0.0,
+              "oldValue": 40.0
+            },
+            {
+              "name": "SeriesValueHeightHint",
+              "newValue": 60.0,
+              "oldValue": 200.0
+            },
+            {
+              "name": "SeriesValueSizingMode",
+              "newValue": 1,
+              "oldValue": 0
+            },
+            {
+              "name": "SeriesValueWidthHint",
+              "newValue": 7.0,
+              "oldValue": 0.0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueSizingMode",
+              "newValue": 2,
+              "oldValue": 1
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueTextClipping",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4146",
+  "Path": null
+}

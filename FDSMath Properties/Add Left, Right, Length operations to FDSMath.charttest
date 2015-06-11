@@ -1,0 +1,209 @@
+{
+  "suitename": "Add Left, Right, Length operations to FDSMath",
+  "description": "Heading1AltText, Heading1CenterText, Heading1Text, Heading2AltText, Heading2CenterText, Heading2Text, Title, TitleText",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1AltText",
+              "newValue": "<FDSMath OP=\"S_RIGHT\" STR=\"Center Text 1\" COUNT=\"5\">",
+              "oldValue": null
+            },
+            {
+              "name": "Heading1CenterText",
+              "newValue": "<FDSMath OP=\"S_LEN\" STR=\"Center Text 1\">",
+              "oldValue": null
+            },
+            {
+              "name": "Heading1Text",
+              "newValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"3\">   ",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading2AltText",
+              "newValue": "<FDSMath OP=\"S_RIGHT\" STR=\"Center Text 1\" COUNT=\"5\">",
+              "oldValue": null
+            },
+            {
+              "name": "Heading2CenterText",
+              "newValue": "<FDSMath OP=\"S_LEN\" STR=\"Center Text 1\">",
+              "oldValue": null
+            },
+            {
+              "name": "Heading2Text",
+              "newValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"3\">",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1AltText",
+              "newValue": "<FDSMath OP=\"S_RIGHT\" STR=\"Center Text 1\" COUNT=\"-1\">",
+              "oldValue": "<FDSMath OP=\"S_RIGHT\" STR=\"Center Text 1\" COUNT=\"5\">"
+            },
+            {
+              "name": "Heading1CenterText",
+              "newValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"14\">",
+              "oldValue": "<FDSMath OP=\"S_LEN\" STR=\"Center Text 1\"> "
+            },
+            {
+              "name": "Heading1Text",
+              "newValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"0\"> ",
+              "oldValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"3\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1Text",
+              "newValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"-1\">",
+              "oldValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"0\"> "
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot_Y_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Title",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "TitleText",
+              "newValue": "<FDSMath OP=\"S_LEN\" STR=\"Center Text 1\">",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot_Y_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "TitleText",
+              "newValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"3\">",
+              "oldValue": "<FDSMath OP=\"S_LEN\" STR=\"Center Text 1\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_FDSPlot_Y_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "TitleText",
+              "newValue": "<FDSMath OP=\"S_RIGHT\" STR=\"Center Text 1\" COUNT=\"5\">",
+              "oldValue": "<FDSMath OP=\"S_LEFT\" STR=\"Center Text 1\" COUNT=\"3\">"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9183",
+  "Path": null
+}

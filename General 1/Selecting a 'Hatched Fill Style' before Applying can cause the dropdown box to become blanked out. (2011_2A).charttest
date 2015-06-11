@@ -1,0 +1,58 @@
+{
+  "suitename": "Selecting a 'Hatched Fill Style' before Applying can cause the dropdown box to become blanked out. (2011_2A)",
+  "description": "This test is to verify that Selecting a 'Hatched Fill Style' before Applying  does not cause the dropdown box to become blanked out",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/Hatched-SameColor.xml"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesBGCustomHatch1",
+              "newValue": false,
+              "oldValue": true
+            },
+            {
+              "name": "SeriesBGCustomHatch2",
+              "newValue": false,
+              "oldValue": true
+            },
+            {
+              "name": "SeriesBGHatch",
+              "newValue": 3,
+              "oldValue": 2
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "15801",
+  "justifierIdLinked": true,
+  "features": [
+    "SeriesBGCustomHatch1",
+    "SeriesBGCustomHatch2",
+    "SeriesBGHatch"
+  ],
+  "Path": null
+}

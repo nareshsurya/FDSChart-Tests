@@ -1,0 +1,188 @@
+{
+  "suitename": "FDSMath",
+  "description": "Heading3, Heading3CenterText, AnnotationDrawStyle, AnnotationMode, AnnotationType, DrawStyle, In Tips, IsAnnotation, IsFootnote, Label, SeriesColor, SeriesValue, SeriesValueArrow, SeriesValueAutoposition, SeriesValueSublabelMask, SeriesValueYOffset   ",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.17.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Plot1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading3",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "Heading3CenterText",
+              "newValue": "Difference between Max Price = <FDSSpan fontColor = \"blue\" fontSize = \"36\"> <FDSMath OP= \"SUB\" L=\"<FDSProperty value=\"<FDSProperty name=\"FDSMaxY\" object=\"Price(Plot1)(FDS)\">\">\" R=\"<FDSProperty value=\"<FDSProperty name=\"FDSMaxY\" object=\"Price(Plot1)(PBI)\">\">\">",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 99.0,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": [
+            {
+              "name": "AnnotationDrawStyle",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationMode",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationType",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "DrawStyle",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "IsAnnotation",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "IsFootnote",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "Label",
+              "newValue": "FDS Difference between Last Price and First Price = <FDSSpan fontColor = \"blue\" fontSize = \"24\"> <FDSMath OP= \"SUB\" L=\"<FDSProperty value=\"<FDSProperty name=\"FDSLastY\" object=\"Price(Plot1)(FDS)\">\">\" R=\"<FDSProperty value=\"<FDSProperty name=\"FDSFirstY\" object=\"Price(Plot1)(FDS)\">\">\">",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesColor",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueSublabelMask",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 40.0,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Price(Plot1)(FDS)_Annotation_0A2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "Price(Plot1)(FDS)_Annotation_0A3",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "IsFootnote",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4109",
+  "Path": null
+}

@@ -1,0 +1,340 @@
+{
+  "suitename": "Placement of quick labels - Location",
+  "description": "SeriesQuickLabel, SeriesQuickLabelPosition, SeriesQuickLabelLeftPositionModifier, SeriesQuickLabelRightPositionModifier,AxisPosition, LabelPosition, TicksPosition, TitlePosition, maxXPlotFactor, maxXPlotPadding, minXFactor, SeriesQuickLabelFontHeight",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/QuickLabelsLocation.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelPosition",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 1,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 0,
+              "oldValue": 1
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 0,
+              "oldValue": 1
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FC_Plot1_Y_AXIS",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "AxisPosition",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "LabelPosition",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "TicksPosition",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "TitlePosition",
+              "newValue": 2,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 2,
+              "oldValue": 0
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 2,
+              "oldValue": 0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 3,
+              "oldValue": 2
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 3,
+              "oldValue": 2
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": false,
+              "oldValue": true
+            },
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 0,
+              "oldValue": 3
+            },
+            {
+              "name": "SeriesQuickLabelPosition",
+              "newValue": 2,
+              "oldValue": 3
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": true,
+              "oldValue": false
+            },
+            {
+              "name": "SeriesQuickLabelPosition",
+              "newValue": 3,
+              "oldValue": 2
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 2,
+              "oldValue": 3
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Plot1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "maxXPlotFactor",
+              "newValue": 0.8,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Price(Plot1)(FDS)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelFontHeight",
+              "newValue": 18,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Plot1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "maxXPlotFactor",
+              "newValue": 0.5,
+              "oldValue": 0.8
+            },
+            {
+              "name": "maxXPlotPadding",
+              "newValue": 0.6,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Plot1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "minXFactor",
+              "newValue": 0.1,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9361",
+  "Path": null
+}

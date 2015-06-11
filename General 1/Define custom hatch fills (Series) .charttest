@@ -1,0 +1,135 @@
+{
+  "suitename": "Define custom hatch fills (Series) ",
+  "description": "This test is to verify vertical and horizontal custom hatches",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/custom_hatch_polygon.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesBGCustomHatch2",
+              "newValue": false,
+              "oldValue": true
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesBGCustomHatch1Angle",
+              "newValue": 60,
+              "oldValue": 33
+            },
+            {
+              "name": "SeriesBGCustomHatch1Spacing",
+              "newValue": 8,
+              "oldValue": 5
+            },
+            {
+              "name": "SeriesBGCustomHatch1Width",
+              "newValue": 1,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesBGCustomHatch1Width",
+              "newValue": 3,
+              "oldValue": 1
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesBGCustomHatch1Angle",
+              "newValue": -120,
+              "oldValue": 60
+            },
+            {
+              "name": "SeriesBGCustomHatch1Spacing",
+              "newValue": 10,
+              "oldValue": 8
+            },
+            {
+              "name": "SeriesBGCustomHatch1Width",
+              "newValue": 0,
+              "oldValue": 3
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "15643",
+  "justifierIdLinked": true,
+  "features": [
+    "SeriesBGCustomHatch2",
+    "SeriesBGCustomHatch1Angle",
+    "SeriesBGCustomHatch1Spacing",
+    "SeriesBGCustomHatch1Width"
+  ],
+  "Path": null
+}

@@ -1,0 +1,128 @@
+{
+  "suitename": "OnAxis Quick Label Positioning",
+  "description": "SeriesQuickLabel, SeriesQuickLabelLeftPositionModifier, SeriesQUickLabelPosition, SeriesQUickLabelRightPositionModifier, SeriesQuickLabelTextBox, SeriesQuickLabelTextBoxBGColor, SeriesQuickLabelTextBoxBGColorFollowsSeriesColor, PlotBelow",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/OnAxisQuickLabels.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabel",
+              "newValue": true,
+              "oldValue": false
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelLeftPositionModifier",
+              "newValue": 0,
+              "oldValue": 3
+            },
+            {
+              "name": "SeriesQuickLabelPosition",
+              "newValue": 2,
+              "oldValue": 1
+            },
+            {
+              "name": "SeriesQuickLabelRightPositionModifier",
+              "newValue": 3,
+              "oldValue": 0
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesQuickLabelTextBox",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelTextBoxBGColor",
+              "newValue": 255,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesQuickLabelTextBoxBGColorFollowsSeriesColor",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PLOT000",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "PlotBelow",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "27976",
+  "Path": null
+}

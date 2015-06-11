@@ -1,0 +1,133 @@
+{
+  "suitename": "Series Color",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.11.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "PricePV",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesColor",
+              "newValue": 3394560,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesFGStyle",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesFGWidth",
+              "newValue": 5,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "VolumePV",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "DrawStyle",
+              "newValue": 9,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "VolumePV",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesBGCustomHatch1",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesBGCustomHatch2",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesBGGradientStyle",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesBGHatch",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesBGStyle",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesColor",
+              "newValue": 10053273,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4022",
+  "justifierIdLinked": true,
+  "features": [
+    "SeriesColor",
+    "SeriesFGStyle",
+    "SeriesFGWidth",
+    "DrawStyle",
+    "SeriesBGCustomHatch1",
+    "SeriesBGCustomHatch2",
+    "SeriesBGGradientStyle",
+    "SeriesBGHatch",
+    "SeriesBGStyle"
+  ],
+  "Path": null
+}

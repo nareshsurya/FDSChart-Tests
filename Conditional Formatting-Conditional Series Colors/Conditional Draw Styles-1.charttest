@@ -1,0 +1,160 @@
+{
+  "suitename": "Conditional Draw Styles-1",
+  "description": "SeriesBGBrush",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/FDSChart-conditionalcolor1.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesBGColor=[>2.5](3394815):(3394560)||SeriesFGColor=[>2](16750899):(3342540)",
+              "oldValue": "SeriesBGColor=[>2.5](3394815):(3394560)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesBGAlpha=[>2](100):(255)||SeriesBGColor=[>2.5](3394815):(3394560)||SeriesFGColor=[>2](16750899):(3342540)",
+              "oldValue": "SeriesBGColor=[>2.5](3394815):(3394560)||SeriesFGColor=[>2](16750899):(3342540)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesBGAlpha=[>2](100):(255)||SeriesBGColor=[>2](10066329):(10053273)||SeriesFGColor=[>2](16750899):(3342540)",
+              "oldValue": "SeriesBGAlpha=[>2](100):(255)||SeriesBGColor=[>2.5](3394815):(3394560)||SeriesFGColor=[>2](16750899):(3342540)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Color(Series)",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesConditionalPenAndBrushProperty",
+              "newValue": "SeriesBGAlpha=[>2](100):(255)||SeriesBGColor=[>2](10066329):(10053273)||SeriesBGStyle=[>2](2):(0)||SeriesFGColor=[>2](16750899):(3342540)",
+              "oldValue": "SeriesBGAlpha=[>2](100):(255)||SeriesBGColor=[>2](10066329):(10053273)||SeriesFGColor=[>2](16750899):(3342540)"
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "66799",
+  "Path": null
+}

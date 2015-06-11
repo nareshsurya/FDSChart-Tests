@@ -1,0 +1,106 @@
+{
+  "suitename": "Potential data object resolution failures on tags2",
+  "description": "AnnotationDrawStyle, IsFootnote, Label",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Series_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "AnnotationDrawStyle",
+              "newValue": null,
+              "oldValue": -1
+            },
+            {
+              "name": "IsFootnote",
+              "newValue": null,
+              "oldValue": false
+            },
+            {
+              "name": "Label",
+              "newValue": null,
+              "oldValue": "<FDSProperty name=\"FDSDataX\">"
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "AnnotationDrawStyle",
+              "newValue": -1,
+              "oldValue": null
+            },
+            {
+              "name": "IsFootnote",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "Label",
+              "newValue": " <FDSProperty name=\"FDSDataX\" object=\"Series\" index=\"6\">",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series_Annotation_0A2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": null,
+              "oldValue": "S"
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "S",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        },
+        {
+          "name": "Series_Annotation_0A3",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": null,
+              "oldValue": "D"
+            }
+          ],
+          "SET_NO_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "9109",
+  "Path": null
+}

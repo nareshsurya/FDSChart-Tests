@@ -1,0 +1,116 @@
+{
+  "suitename": "Global Settings-Chart Font2",
+  "description": "This test verifies adding different  options using  Chart Font tab.",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Chart 1.0.2.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "BaseFontCharSet",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "BaseFontColor",
+              "newValue": 39168,
+              "oldValue": null
+            },
+            {
+              "name": "BaseFontFamily",
+              "newValue": "Comic Sans MS",
+              "oldValue": null
+            },
+            {
+              "name": "BaseFontHeight",
+              "newValue": 20,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "Main Plot CP",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "LegendFontCharSet",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "LegendFontFamily",
+              "newValue": "Wingdings",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSChart",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "FontPointBasis",
+              "newValue": 72,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4021",
+  "justifierIdLinked": true,
+  "features": [
+    "BaseFontColor",
+    "BaseFontHeight",
+    "LegendFontCharSet",
+    "LegendFontFamily",
+    "FontPointBasis",
+    "BaseFontCharSet",
+    "BaseFontFamily"
+  ],
+  "Path": null
+}

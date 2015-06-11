@@ -1,0 +1,58 @@
+{
+  "suitename": "Japanese Unicode - FDSChart can display unicode chars",
+  "description": "",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "Heading1CenterText",
+              "newValue": "4月6日(月)の試合はありません",
+              "oldValue": null
+            },
+            {
+              "name": "Heading1FontCharSet",
+              "newValue": 128,
+              "oldValue": null
+            },
+            {
+              "name": "Heading1FontFamily",
+              "newValue": "ＭＳ ゴシック",
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "15629",
+  "justifierIdLinked": false,
+  "features": [
+    "Heading1CenterText",
+    "Heading1FontCharSet",
+    "Heading1FontFamily"
+  ],
+  "Path": null
+}

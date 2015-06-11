@@ -1,0 +1,46 @@
+{
+  "suitename": "Annotations High and Low",
+  "description": "This  test verifies if High Annotation was added to the chart",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "../../xml files/Annotation Off The Chart.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "SERIES000:HIGHANNOTATION:HIGH::",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": [
+            {
+              "name": "SeriesValueOutsideDrawnOnEdge",
+              "newValue": true,
+              "oldValue": null
+            }
+          ],
+          "SET_APP_FLAGS": null
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "64103",
+  "justifierIdLinked": true,
+  "features": [
+    "SeriesValueOutsideDrawnOnEdge"
+  ],
+  "Path": null
+}

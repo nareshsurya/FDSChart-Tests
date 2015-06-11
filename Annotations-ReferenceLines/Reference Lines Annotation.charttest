@@ -1,0 +1,280 @@
+{
+  "suitename": "Reference Lines Annotation",
+  "description": "This TesCase shows how to add vertical and horizontal  annotation lines in a chart.",
+  "schema": null,
+  "runOnJS": false,
+  "runOnPcUnicode": false,
+  "runOnPcMultibyte": false,
+  "steps": [
+    {
+      "type": "loadChartFromXmlOrJson",
+      "path": "atlas/Time.XML"
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    },
+    {
+      "type": "setAttributeBatch",
+      "objects": [
+        {
+          "name": "FDSPlot",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "seriesId",
+              "newValue": 3,
+              "oldValue": 1
+            }
+          ]
+        },
+        {
+          "name": "FDSPlot_Annotation_0",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "AnnotationDrawStyle",
+              "newValue": 16,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationMode",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationType",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "DrawStyle",
+              "newValue": 16,
+              "oldValue": null
+            },
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "IsAnnotation",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "IsFootnote",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "Label",
+              "newValue": "Test Reference 1",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesColor",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesNumber",
+              "newValue": 1,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueSublabelMask",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 40.0,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "FDSPlot_Annotation_0A2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "FDSPlot_Annotation_0A3",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "FDSPlot_Annotation_1",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "AnnotationDrawStyle",
+              "newValue": 17,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationMode",
+              "newValue": 3,
+              "oldValue": null
+            },
+            {
+              "name": "AnnotationType",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "DrawStyle",
+              "newValue": 17,
+              "oldValue": null
+            },
+            {
+              "name": "InTips",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "IsAnnotation",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "IsFootnote",
+              "newValue": false,
+              "oldValue": null
+            },
+            {
+              "name": "Label",
+              "newValue": "Test Reference 2",
+              "oldValue": null
+            },
+            {
+              "name": "SeriesColor",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesNumber",
+              "newValue": 2,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValue",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueArrow",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueAutoPosition",
+              "newValue": true,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueSublabelMask",
+              "newValue": 0,
+              "oldValue": null
+            },
+            {
+              "name": "SeriesValueYOffset",
+              "newValue": 40.0,
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "FDSPlot_Annotation_1A2",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        },
+        {
+          "name": "FDSPlot_Annotation_1A3",
+          "SET_RESET_FLAGS": null,
+          "SET_RESET_ROOT_FLAGS": null,
+          "SET_NO_FLAGS": null,
+          "SET_APP_FLAGS": [
+            {
+              "name": "Frequency",
+              "newValue": "D",
+              "oldValue": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "captureScreenshot",
+      "path": null
+    }
+  ],
+  "justifierid": "4080",
+  "justifierIdLinked": true,
+  "features": [
+    "seriesId",
+    "AnnotationDrawStyle",
+    "AnnotationMode",
+    "AnnotationType",
+    "DrawStyle",
+    "InTips",
+    "IsAnnotation",
+    "IsFootnote",
+    "Label",
+    "SeriesColor",
+    "SeriesNumber",
+    "SeriesValue",
+    "SeriesValueArrow",
+    "SeriesValueAutoPosition",
+    "SeriesValueSublabelMask",
+    "SeriesValueYOffset",
+    "Frequency"
+  ],
+  "Path": null
+}
